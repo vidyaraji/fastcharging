@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+.top{
+display:flex;
+padding: 5px 0px;	
+justify-content:space-around;
+
+list-style:none;
+font-weight: bold;
+margin-top:0;
+}
+ul a{
+text-decoration:none;
+color:white;
+font-size:10;
+}
+.anim{
+opacity:0;
+transform:translateY(30px);
+animation: moveup 0.5s linear forwards;
+animation-delay:0.5s;
+}
+@keyframes moveup{
+ 100%{
+    opacity:1;
+	transform:translateY(30px);
+	}
+}
+.text{
+padding:20px;
+margin:10px;
+font-size:70px;
+}
+.small{
+font-size:30px;
+color:white;
+padding:30px;
+animation-delay:2s;
+}
+.feature-img{
+position:absolute;
+width:1000px;
+left:35%;
+padding-top:40px;
+animation-delay:1s;
+}
+.anim1{
+animation-delay:2s;
+}
+.contact{
+background-color:#98d19c;
+padding:0 10px 190px 0px;
+}
+
+.contactimg{
+width:700px;
+height:600px;
+position:absolute;
+right:0%;
+top:420%;
+}
+</style>
+</head>
+<body bgcolor=black>
+<div>
+ <ul class="top">
+  <li> <a href="#">HOME</a> </li>
+  <li> <a href="#">FEATURES</a> </li>
+  <li> <a href="#">TO CONTACT</a> </li>
+  <li> <a href="#">ACCESSORIES</a> </li>
+  <li> <a href="#">SUPPORT</a> </li>
+  <li> <a href="#">ABOUT</a> </li>
+  </ul>
+</div>
+<img class="feature-img anim" src="img.jpeg">
+<div>
+<h2 class="text anim" style='color:#584de8'> FAST <br>CHARGING <br>IN 4MIN </h2>
+<h1 class="text anim anim1" style="color:yellow; font-size:100px">REALME</h1>
+<h3 class="small anim">320W SUPERSONIC FAST CHARGE<br> WORLDS NO.1 FAST CHARGING</h3>
+</div><br><br><br><br><br><br><br><br><br><br>
+<center><img src="charger.jpg">
+<video width=900 height=700 autoplay loop muted><source src="supersonic.mp4" type="video/mp4">
+<source src="supersonic.mp4" type="video/mp4">not supported</video></center>
+<div><img src="img3.jpg" width=500 height=500>
+<img src="img2.png" width=500 height=500>
+<img src="img4.jpg" width=460 height=500></div>
+<div class="contact">
+<h4 style='background-color:blue'>
+<img class="contactimg" src="contact.png"><b>OTHER PRODUCTS <center>FOR QUERIES</center></b><br></h4>
+<h5>VIVO 15W <center>68512 34860</center><br>
+VIVO 10W <center>00452 88862</center><br>
+VIVO 66W <center> realmecharge4@gmail.com</center><br>
+VIVO 18W <br><center>realmequeries4@gmail.com</center>
+VIVO 5V~2A <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center><a href=""><img src="logo.png" width="700" height="150"></a></center>
+</h5>
+</div>
+</body>
+</html>
